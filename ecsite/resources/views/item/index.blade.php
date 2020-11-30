@@ -18,7 +18,7 @@
                     @auth
                         <form method="POST" action="cartitem" class="form-inline m-1">
                             {{ csrf_field() }}
-                            <select name="quantity" class="form-control col-md-2 mr-1">
+                            <select name="quantity" class="form-control mr-1">
                                 <option selected>1</option>
                                 <option>2</option>
                                 <option>3</option>
